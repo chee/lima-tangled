@@ -1,0 +1,32 @@
+{
+  "name": "@chee/lima",
+  "version": "2.1.1",
+  "description": "literate programming with markdown",
+  "type": "module",
+  "bin": {
+    "lima": "bin/lima.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "chee <chee@snoot.club>",
+  "license": "GPL-3.0+",
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+	 "make-dir": "^2.1.0",
+	 "mdast-util-from-markdown": "^0.8.4",
+	 "remark-frontmatter": "^4.0.1",
+	 "remark-gfm": "^3.0.1",
+	 "remark-parse": "^10.0.1",
+	 "unified": "^10.1.2",
+    "unified-stream": "^2.0.0",
+	 "untildify": "^4.0.0"
+  },
+  "volta": {
+	 "node": "18.7.0"
+  }
+}
